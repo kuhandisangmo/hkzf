@@ -1,0 +1,31 @@
+// 顶部搜索导航栏的样式
+.root {
+  height: 100%;
+  :global {
+    .ReactVirtualized__List {
+      padding: 0 15px;
+    }
+  }
+}
+.headerWrap {
+  padding: 0 10px;
+  height: 45px;
+  background-color: #f6f5f6;
+}
+.header {
+  position: relative;
+  top: 0;
+  padding: 0;
+  :global {
+    .am-flexbox {
+      height: 30px;
+    }
+    .icon-map {
+      color: #00ae66;
+    }
+  }
+}
+.loading {
+  height: 110px;
+  background-color: #eee;
+}

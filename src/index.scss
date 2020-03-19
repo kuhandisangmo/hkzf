@@ -1,0 +1,42 @@
+/* 全局样式 */
+html,
+body {
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+h3,
+h1,
+li,
+ul,
+dd,
+p {
+  margin: 0;
+}
+.fixed {
+  overflow: hidden;
+}
+ul {
+  padding: 0;
+}
+
+.loading {
+  padding-top: 100px;
+  text-align: center;
+}
